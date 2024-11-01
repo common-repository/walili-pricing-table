@@ -1,0 +1,50 @@
+.walili-pricing-table-content:hover{
+  -webkit-box-shadow: 0 14px 28px rgba(0,0,0,.25),0 10px 10px rgba(0,0,0,.22);
+  box-shadow: 0 14px 28px rgba(0,0,0,.25),0 10px 10px rgba(0,0,0,.22);
+}
+
+.walili-pricing-table-content.ribbon:before{
+  position: absolute;
+  text-align: center;
+  z-index: 10;
+}
+
+.walili-pricing-table-content.ribbon_strip_right:before{
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  top: 30px;
+  right: -55px;
+  width: 200px;
+}
+
+.walili-pricing-table-content.ribbon_strip_left:before{
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  top: 30px;
+  left: -55px;
+  width: 200px;
+}
+
+.walili-pricing-table-content.ribbon_flag_right:before{
+  top: 10px;
+  right: 10px;
+}
+
+.walili-pricing-table-content.ribbon_flag_left:before{
+ top: 10px;
+ left: 10px;
+}
+
+.walili-pricing-table-content.ribbon_circle_right:before{
+  top: 10px;
+  right: 10px;
+  border-radius: 50%;
+}
+
+.walili-pricing-table-content.ribbon_circle_left:before{
+ top: 10px;
+ left: 10px;
+ border-radius: 50%;
+}
